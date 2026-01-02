@@ -1,0 +1,16 @@
+.header{
+    background-color: #06151a;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_banner{
+    background: linear-gradient(180deg,var(--verde-destaque) 0%,var(--fundo-geral) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.header_banner img{
+    max-width: 90%;
+}
