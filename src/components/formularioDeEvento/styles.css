@@ -9,3 +9,83 @@
     width: 384px;
     max-width: 90%;
 }
+
+.formEvento_campos{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.formEvento h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    color: var(--branco);
+}
+
+.campoForm{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campoForm label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--branco);
+}
+
+.campoForm input[type="text"],
+.campoForm input[type="date"]{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-medio);
+    color: var(--branco);
+    line-height: 120%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 16px;
+}
+
+.campoForm input::placeholder{
+    color: var(--cinza-medio);
+}
+
+.campoForm select{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-medio);
+    color: var(--branco);
+    line-height: 120%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 16px;
+}
+
+.campoForm select option{
+    background-color: var(--fundo-componentes);
+    color: var(--branco);
+}
+
+.formEvento_acoes{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.formEvento_acoes input[type="submit"]{
+    background: var(--verde-destaque);
+    border: none;
+    padding: 12px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--fundo-componentes);
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+.formEvento_acoes input[type="submit"]:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
