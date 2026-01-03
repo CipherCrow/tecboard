@@ -8,3 +8,9 @@
     letter-spacing: 10%;
     font-family: var(--fonte-orbitron);
 }
+.cards_section_container{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
