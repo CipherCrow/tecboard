@@ -83,6 +83,7 @@
     color: var(--fundo-componentes);
     transition: background-color 0.3s ease;
     border-radius: 8px;
+    transition: .3s;
 }
 
 .formEvento_acoes input[type="submit"]:hover{
