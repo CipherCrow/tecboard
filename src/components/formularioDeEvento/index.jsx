@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./formularioDeEvento_styles.css"
 
 function CampoDeFormulario({children}){
     return(

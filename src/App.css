@@ -1,0 +1,8 @@
+.sessao_apresentacao_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 4em;
+    width: 1200px;
+    max-width: 90%;
+}
