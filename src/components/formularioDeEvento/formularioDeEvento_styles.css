@@ -37,7 +37,8 @@
 }
 
 .campoForm input[type="text"],
-.campoForm input[type="date"]{
+.campoForm input[type="date"],
+.campoForm textarea{
     background-color: transparent;
     border-radius: 8px;
     border: 1px solid var(--cinza-medio);
@@ -46,6 +47,11 @@
     font-size: 16px;
     font-weight: 400;
     padding: 8px 16px;
+}
+
+.campoForm textarea{
+    resize: vertical;
+    min-height: 80px;
 }
 
 .campoForm input::placeholder{
