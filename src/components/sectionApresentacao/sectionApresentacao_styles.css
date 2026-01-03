@@ -3,4 +3,8 @@
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 2em;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 10%;
+    font-family: var(--fonte-orbitron);
 }

@@ -22,7 +22,7 @@ function CampoDeEntrada({type,id,placeholder}){
     )
 }
 
-export default function FormularioDeEvento(){
+export default function FormularioDeEvento({temas}){
   return(
     <form className="formEvento">
       <h2>Preencha para criar um evento:</h2>
@@ -38,9 +38,11 @@ export default function FormularioDeEvento(){
         <CampoDeFormulario>
           <Label htmlFor="temaEvento">Tema do Evento</Label>
           <select name="" id="">
-            <option value="">Tecnologia</option>
-            <option value="">Saúde</option>
-            <option value="">Educação</option>
+            {
+              temas.map((tema) => (
+                <option key={tema.id} value={tema.nome}>{tema.nome}</option>
+              ))
+            }
           </select>
         </CampoDeFormulario>
       </div>

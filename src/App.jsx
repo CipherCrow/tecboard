@@ -5,6 +5,7 @@ import SectionApresentacao from './components/sectionApresentacao/index.jsx';
 
 function App() {
 
+  /*Idealmente aqui, o fonte pegaria todos os temas existentes no banco de dados*/
   const temas = [
     {id: 1, nome: 'Front-end'},
     {id: 2, nome: 'Back-end'},
@@ -17,7 +18,7 @@ function App() {
   return (
     <main>
       <Header/>
-      <FormularioDeEvento/>
+      <FormularioDeEvento temas={temas}/>
       <section className="sessao_apresentacao_container">
         {
           temas.map((tema) => (
