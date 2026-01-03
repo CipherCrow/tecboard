@@ -6,6 +6,11 @@
     max-width: 90%;
 }
 
+.card_evento_imagem img{
+    width: 100%;
+    object-fit: cover;
+}
+
 .card_evento .card_evento_corpo{
     padding: 24px 16px;
     display: flex;
